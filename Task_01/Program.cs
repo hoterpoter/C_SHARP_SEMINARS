@@ -4,8 +4,7 @@
 является ли первое число квадратом второго. 
 */
 System.Console.Write("Введите первое число: ");
-string num1String = Console.ReadLine();
-int number1 = Convert.ToInt32(num1String);
+int number1 = Convert.ToInt32(Console.ReadLine());
 
 System.Console.Write("Введите второе число: ");
 int number2 = Convert.ToInt32(Console.ReadLine());
